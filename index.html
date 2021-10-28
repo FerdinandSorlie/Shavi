@@ -9,32 +9,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;400&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="navWrapper">
-      <div class="innerNav">
-        <div class="location">
+    <div class="flex-row">
+      <div class="meny-row">
         <select class="velg" name="velg"  value="0">
           <option value="1">Bergen</option>
           <option value="2">Oslo</option>
           <option value="3">Førde</option>
         </select>
         </div>
-        <div class="Name">
-        <a href="index.html"class="Name"><img src="media/Shavi.svg" alt="meny" height="60vw";></a>
+        <div class="meny-row" style="flex-grow: 2;">
+          <a href="index.html"><img class="icon-stor" src="media/Shavi.svg" alt="meny";></a>
         </div>
-        <div id="burger"><img src="media/hamburgir.svg" alt="meny" height="40vw"; color="white";></div>
-      </div>
+        <div class="meny-row" id="burger"><img src="media/hamburgir.svg" alt="meny" height="40vw"; color="white";></div>
     </div>
-    <div class="pageWrapper">
-    <div class="page">
-      <a href="#">Om oss</a>
-      <a href="#">Medlemsskap</a>
-      <a href="#">Kjøretøy</a>
-    </div>
+    <div class="flex-row text-stor" style="background-color: var(--sec-farge);">
+      <a class="meny-row" href="#">Om oss</a>
+      <a class="meny-row" href="#">Medlemsskap</a>
+      <a class="meny-row" href="#">Kjøretøy</a>
     </div>
     <div class="cover"></div>
     <div class="meny">
-    <ul>
-      <li><a href="index.html"class="Name2"><img src="media/ShaviWhite.svg" alt="meny";></a></li>
+    <ul class="meny-text text-mid" style="display: none;">
+      <li><a href="index.html"class="flex-name"><img src="media/ShaviWhite.svg" alt="meny";></a></li>
       <li>
       <ul>
         <h1>Sted:</h1>
