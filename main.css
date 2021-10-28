@@ -1,10 +1,11 @@
 /* pallet https://coolors.co/94e8b4-72bda3-5e8c61-4e6151-3b322c */
 :root{
-  --main-farge: #FA7D09;
-  --sec-farge: #FF4301;
-  --fg-farge: #4A3F35;
-  --bg-farge: #2F2519;
+  --main-farge: #E76F51;
+  --sec-farge: #F4A261;
+  --fg-farge: #264653;
+  --bg-farge: #264653;
   --text-farge: black;
+  --text-farge-lys: white;
 }
 
 body{
@@ -65,6 +66,25 @@ body{
   height: auto;
 }
 
+.kort {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.kort-content {
+  width: 60%;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-farge-lys);
+}
+
 .cover{
   height: 100%;
   width: 100%;
@@ -76,12 +96,14 @@ body{
 }
 
 .mainpage {
+  display: flex;
   height: 100%;
-  width: 80%;
+  width: 100%;
   background-color: var(--fg-farge);
   margin-left: auto;
   margin-right: auto;
-  
+  align-content: center;
+  flex-direction: column;
 }
 
 a {
