@@ -8,6 +8,10 @@
   --text-farge-lys: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: var(--main-farge);
   margin: 0px;
